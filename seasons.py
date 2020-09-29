@@ -24,6 +24,8 @@ if month_input in all_months:
             print("You are in spring")
         elif month_input == 'dec' and day < 21:
             print("You are in fall")
+        else:
+            print("You are in winter")
     elif month_input == 'apr' or month_input == 'may' or month_input == 'jun':
         if month_input == 'jun' and day > 20:
             print(f'You are in summer')
@@ -38,4 +40,4 @@ if month_input in all_months:
         print("You are in fall")
 
 else:
-    print("Please enter one of the 3-letter months: jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec.")
+    print("Please enter one of the 3-letter months: 'jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec' and then today's date")
